@@ -1,0 +1,37 @@
+:root {
+  --karlaFont: 'Karla', sans-serif;
+
+  --cyan: #2ab2af;
+  --cyanLighter: #63c4c2;
+  --brightYellow: #c0df34;
+  --brightYellowHover: #c7db6b;
+  --lightGray: #e5eff5;
+  --grayishBlue: #98a6bd;
+  --grayishBackground: #e4e7ec;
+  --white: #FFF;
+
+}
+
+* {
+  font-family: var(--karlaFont);
+}
+
+h1,
+h2,
+p,
+body {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  background-color: var(--grayishBackground);
+}
+
+#app {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+  height: 100vh;
+}
